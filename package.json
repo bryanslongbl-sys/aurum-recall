@@ -7,7 +7,8 @@
   "author": "Aurum Nebula LLC",
   "bin": {
     "aurum-recall-mcp": "dist/mcp.js",
-    "aurum-recall-lens": "dist/lens-cli.js"
+    "aurum-recall-lens": "dist/lens-cli.js",
+    "aurum-recall-fractal": "dist/fractal-cli.js"
   },
   "exports": {
     ".": {

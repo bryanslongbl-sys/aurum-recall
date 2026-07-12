@@ -13,3 +13,4 @@ export {
 export { parse as parseFrontmatter, serialize as serializeFrontmatter, extractLinks } from "./frontmatter.js";
 export { ageDays, trustNote } from "./provenance.js";
 export { renderLens, toLensData, type LensData, type LensNode } from "./lens.js";
+export { renderFractal } from "./fractal.js";
