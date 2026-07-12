@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Open agent memory: sovereign, human-readable, self-curating. Typed Markdown files + an always-in-context index + [[links]] + trust-decay.",
   "type": "module",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "Aurum Nebula LLC",
   "bin": {
     "aurum-recall-mcp": "dist/mcp.js",
