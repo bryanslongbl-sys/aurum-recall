@@ -48,7 +48,7 @@ function titleOf(name: string): string {
 /** Returns a full, self-contained HTML document (data inlined; no external requests). */
 export function renderLens(data: LensData): string {
   // Escape `<` so an embedded body can't break out of the <script> tag.
-  const json = JSON.stringify(data).replace(/</g, "\\u003c");
+  const json = JSON.stringify(data).replace(/</g, "\u003c").replace(new RegExp(String.fromCharCode(8232),"g"), "\u2028").replace(new RegExp(String.fromCharCode(8233),"g"), "\u2029");
   return TEMPLATE.replace("/*__DATA__*/", json);
 }
 

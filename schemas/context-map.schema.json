@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContextMap",
+  "type": "object",
+  "required": ["version", "root_id", "title", "nodes"],
+  "properties": {
+    "version": { "type": "string" },
+    "root_id": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "nodes": { "type": "array", "items": { "$ref": "./context-node.schema.json" } }
+  }
+}

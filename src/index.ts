@@ -14,3 +14,5 @@ export { parse as parseFrontmatter, serialize as serializeFrontmatter, extractLi
 export { ageDays, trustNote } from "./provenance.js";
 export { renderLens, toLensData, type LensData, type LensNode } from "./lens.js";
 export { renderFractal } from "./fractal.js";
+// Lattice (ContextQR): the visual context-routing layer over the memory store.
+export * from "./lattice/index.js";

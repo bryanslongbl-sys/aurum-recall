@@ -1,14 +1,15 @@
 {
   "name": "aurum-recall",
   "version": "0.1.0",
-  "description": "Open agent memory: sovereign, human-readable, self-curating. Typed Markdown files + an always-in-context index + [[links]] + trust-decay.",
+  "description": "AI-native memory: a sovereign, human-readable, self-curating store (library + MCP) + a visual context-routing lattice (ContextQR) with a scannable root QR. Route before you retrieve.",
   "type": "module",
   "license": "Apache-2.0",
   "author": "Aurum Nebula LLC",
   "bin": {
     "aurum-recall-mcp": "dist/mcp.js",
     "aurum-recall-lens": "dist/lens-cli.js",
-    "aurum-recall-fractal": "dist/fractal-cli.js"
+    "aurum-recall-fractal": "dist/fractal-cli.js",
+    "aurum-recall-lattice": "dist/lattice/cli.js"
   },
   "exports": {
     ".": {
@@ -32,14 +33,20 @@
     "llm",
     "mcp",
     "sovereign",
-    "knowledge-base"
+    "knowledge-base",
+    "context",
+    "qr",
+    "rag",
+    "routing"
   ],
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.5",
     "typescript": "^5.6.0"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
-    "zod": "^4.4.3"
+    "zod": "^4.4.3",
+    "qrcode": "^1.5.4"
   }
 }
