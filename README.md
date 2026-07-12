@@ -2,6 +2,12 @@
 
 **Memory your agent (and you) can actually read.**
 
+<p align="center">
+  <img src="assets/lens.svg" alt="Aurum Recall spectral lens — a memory store rendered as a color-coded wheel of tiles connected by their links" width="840">
+</p>
+
+<p align="center"><sub>A demo store through the <b>spectral lens</b> (<code>aurum-recall-lens</code>): color = memory type, each tile = a memory, lines = <code>[[links]]</code>. Click any tile in the live HTML to focus its layer.</sub></p>
+
 AI agents forget everything between sessions. The dominant fix — dump the conversation into a
 vector database and retrieve by embedding similarity — makes memory **opaque, unownable, and
 un-auditable**. You can't open it, correct a wrong belief, see why something was recalled, or take
