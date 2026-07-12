@@ -1,0 +1,4 @@
+- [Who I am](user_who_i_am.md) — solo technical founder, ships fast, terse
+- [No auto-deploys](feedback_no_auto_deploys.md) — never deploy to prod without an explicit go
+- [Launch Q3](project_launch_q3.md) — public beta targeted 2026-09-01; keep signup frictionless
+- [Billing dashboard](reference_billing_dashboard.md) — Stripe dashboard = where subscription state lives
