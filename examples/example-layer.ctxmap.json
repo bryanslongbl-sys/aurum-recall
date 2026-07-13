@@ -1,0 +1,1177 @@
+{
+  "version": "0.1.0",
+  "root_id": "ctx_layer1",
+  "title": "Aurum Recall — Example Layer",
+  "nodes": [
+    {
+      "id": "ctx_layer1",
+      "parent_id": null,
+      "label": "Layer 1 — 64 tiles sealed",
+      "type": "root",
+      "color": "gold",
+      "path": "/layer-1",
+      "summary": "One completed 8×8 context layer: 64 crystallized memory tiles.",
+      "children": [
+        "ctx_t00",
+        "ctx_t01",
+        "ctx_t02",
+        "ctx_t03",
+        "ctx_t04",
+        "ctx_t05",
+        "ctx_t06",
+        "ctx_t07",
+        "ctx_t08",
+        "ctx_t09",
+        "ctx_t10",
+        "ctx_t11",
+        "ctx_t12",
+        "ctx_t13",
+        "ctx_t14",
+        "ctx_t15",
+        "ctx_t16",
+        "ctx_t17",
+        "ctx_t18",
+        "ctx_t19",
+        "ctx_t20",
+        "ctx_t21",
+        "ctx_t22",
+        "ctx_t23",
+        "ctx_t24",
+        "ctx_t25",
+        "ctx_t26",
+        "ctx_t27",
+        "ctx_t28",
+        "ctx_t29",
+        "ctx_t30",
+        "ctx_t31",
+        "ctx_t32",
+        "ctx_t33",
+        "ctx_t34",
+        "ctx_t35",
+        "ctx_t36",
+        "ctx_t37",
+        "ctx_t38",
+        "ctx_t39",
+        "ctx_t40",
+        "ctx_t41",
+        "ctx_t42",
+        "ctx_t43",
+        "ctx_t44",
+        "ctx_t45",
+        "ctx_t46",
+        "ctx_t47",
+        "ctx_t48",
+        "ctx_t49",
+        "ctx_t50",
+        "ctx_t51",
+        "ctx_t52",
+        "ctx_t53",
+        "ctx_t54",
+        "ctx_t55",
+        "ctx_t56",
+        "ctx_t57",
+        "ctx_t58",
+        "ctx_t59",
+        "ctx_t60",
+        "ctx_t61",
+        "ctx_t62",
+        "ctx_t63"
+      ],
+      "trust_level": "user_verified",
+      "privacy_level": "private",
+      "staleness_score": 0,
+      "marker": {
+        "kind": "qr",
+        "payload": "ctx://ctx_layer1"
+      }
+    },
+    {
+      "id": "ctx_t00",
+      "parent_id": "ctx_layer1",
+      "label": "Auth 1",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t00",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.85,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t00"
+      }
+    },
+    {
+      "id": "ctx_t01",
+      "parent_id": "ctx_layer1",
+      "label": "Billing 1",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t01",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.05,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t01"
+      }
+    },
+    {
+      "id": "ctx_t02",
+      "parent_id": "ctx_layer1",
+      "label": "Onboarding 1",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t02",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.1,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t02"
+      }
+    },
+    {
+      "id": "ctx_t03",
+      "parent_id": "ctx_layer1",
+      "label": "Round 5 1",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t03",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.15,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t03"
+      }
+    },
+    {
+      "id": "ctx_t04",
+      "parent_id": "ctx_layer1",
+      "label": "Corpus 1",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t04",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.2,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t04"
+      }
+    },
+    {
+      "id": "ctx_t05",
+      "parent_id": "ctx_layer1",
+      "label": "Schema 1",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t05",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.25,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t05"
+      }
+    },
+    {
+      "id": "ctx_t06",
+      "parent_id": "ctx_layer1",
+      "label": "Pipeline 1",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t06",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.3,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t06"
+      }
+    },
+    {
+      "id": "ctx_t07",
+      "parent_id": "ctx_layer1",
+      "label": "Roster 1",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t07",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t07"
+      }
+    },
+    {
+      "id": "ctx_t08",
+      "parent_id": "ctx_layer1",
+      "label": "Ledger 1",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t08",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.05,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t08"
+      }
+    },
+    {
+      "id": "ctx_t09",
+      "parent_id": "ctx_layer1",
+      "label": "Intake 1",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t09",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.1,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t09"
+      }
+    },
+    {
+      "id": "ctx_t10",
+      "parent_id": "ctx_layer1",
+      "label": "Redline 1",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t10",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.15,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t10"
+      }
+    },
+    {
+      "id": "ctx_t11",
+      "parent_id": "ctx_layer1",
+      "label": "Vitals 1",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t11",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.85,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t11"
+      }
+    },
+    {
+      "id": "ctx_t12",
+      "parent_id": "ctx_layer1",
+      "label": "Scan 1",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t12",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.25,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t12"
+      }
+    },
+    {
+      "id": "ctx_t13",
+      "parent_id": "ctx_layer1",
+      "label": "Deploy 1",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t13",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.3,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t13"
+      }
+    },
+    {
+      "id": "ctx_t14",
+      "parent_id": "ctx_layer1",
+      "label": "Runbook 1",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t14",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t14"
+      }
+    },
+    {
+      "id": "ctx_t15",
+      "parent_id": "ctx_layer1",
+      "label": "Vault 1",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t15",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.05,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t15"
+      }
+    },
+    {
+      "id": "ctx_t16",
+      "parent_id": "ctx_layer1",
+      "label": "Index 1",
+      "type": "source",
+      "color": "white",
+      "path": "/layer-1/ctx_t16",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.1,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t16"
+      }
+    },
+    {
+      "id": "ctx_t17",
+      "parent_id": "ctx_layer1",
+      "label": "Router 1",
+      "type": "business",
+      "color": "orange",
+      "path": "/layer-1/ctx_t17",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.15,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t17"
+      }
+    },
+    {
+      "id": "ctx_t18",
+      "parent_id": "ctx_layer1",
+      "label": "Metrics 1",
+      "type": "health",
+      "color": "green",
+      "path": "/layer-1/ctx_t18",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.2,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t18"
+      }
+    },
+    {
+      "id": "ctx_t19",
+      "parent_id": "ctx_layer1",
+      "label": "Consent 1",
+      "type": "source",
+      "color": "white",
+      "path": "/layer-1/ctx_t19",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.25,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t19"
+      }
+    },
+    {
+      "id": "ctx_t20",
+      "parent_id": "ctx_layer1",
+      "label": "Backup 1",
+      "type": "business",
+      "color": "orange",
+      "path": "/layer-1/ctx_t20",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.3,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t20"
+      }
+    },
+    {
+      "id": "ctx_t21",
+      "parent_id": "ctx_layer1",
+      "label": "Digest 1",
+      "type": "health",
+      "color": "green",
+      "path": "/layer-1/ctx_t21",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t21"
+      }
+    },
+    {
+      "id": "ctx_t22",
+      "parent_id": "ctx_layer1",
+      "label": "Signal 1",
+      "type": "source",
+      "color": "white",
+      "path": "/layer-1/ctx_t22",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.85,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t22"
+      }
+    },
+    {
+      "id": "ctx_t23",
+      "parent_id": "ctx_layer1",
+      "label": "Lattice 1",
+      "type": "business",
+      "color": "orange",
+      "path": "/layer-1/ctx_t23",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.1,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t23"
+      }
+    },
+    {
+      "id": "ctx_t24",
+      "parent_id": "ctx_layer1",
+      "label": "Voyage 1",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t24",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.15,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t24"
+      }
+    },
+    {
+      "id": "ctx_t25",
+      "parent_id": "ctx_layer1",
+      "label": "Combat 1",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t25",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.2,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t25"
+      }
+    },
+    {
+      "id": "ctx_t26",
+      "parent_id": "ctx_layer1",
+      "label": "Theme 1",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t26",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.25,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t26"
+      }
+    },
+    {
+      "id": "ctx_t27",
+      "parent_id": "ctx_layer1",
+      "label": "Node 1",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t27",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.3,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t27"
+      }
+    },
+    {
+      "id": "ctx_t28",
+      "parent_id": "ctx_layer1",
+      "label": "Recall 1",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t28",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t28"
+      }
+    },
+    {
+      "id": "ctx_t29",
+      "parent_id": "ctx_layer1",
+      "label": "Trace 1",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t29",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.05,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t29"
+      }
+    },
+    {
+      "id": "ctx_t30",
+      "parent_id": "ctx_layer1",
+      "label": "Budget 1",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t30",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.1,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t30"
+      }
+    },
+    {
+      "id": "ctx_t31",
+      "parent_id": "ctx_layer1",
+      "label": "Warrant 1",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t31",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.15,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t31"
+      }
+    },
+    {
+      "id": "ctx_t32",
+      "parent_id": "ctx_layer1",
+      "label": "Trials 1",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t32",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.2,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t32"
+      }
+    },
+    {
+      "id": "ctx_t33",
+      "parent_id": "ctx_layer1",
+      "label": "Report 1",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t33",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.85,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t33"
+      }
+    },
+    {
+      "id": "ctx_t34",
+      "parent_id": "ctx_layer1",
+      "label": "Session 1",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t34",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.3,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t34"
+      }
+    },
+    {
+      "id": "ctx_t35",
+      "parent_id": "ctx_layer1",
+      "label": "Kernel 1",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t35",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t35"
+      }
+    },
+    {
+      "id": "ctx_t36",
+      "parent_id": "ctx_layer1",
+      "label": "Weights 1",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t36",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.05,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t36"
+      }
+    },
+    {
+      "id": "ctx_t37",
+      "parent_id": "ctx_layer1",
+      "label": "Shard 1",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t37",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.1,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t37"
+      }
+    },
+    {
+      "id": "ctx_t38",
+      "parent_id": "ctx_layer1",
+      "label": "Auth 2",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t38",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.15,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t38"
+      }
+    },
+    {
+      "id": "ctx_t39",
+      "parent_id": "ctx_layer1",
+      "label": "Billing 2",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t39",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.2,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t39"
+      }
+    },
+    {
+      "id": "ctx_t40",
+      "parent_id": "ctx_layer1",
+      "label": "Onboarding 2",
+      "type": "business",
+      "color": "orange",
+      "path": "/layer-1/ctx_t40",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.25,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t40"
+      }
+    },
+    {
+      "id": "ctx_t41",
+      "parent_id": "ctx_layer1",
+      "label": "Round 5 2",
+      "type": "health",
+      "color": "green",
+      "path": "/layer-1/ctx_t41",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.3,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t41"
+      }
+    },
+    {
+      "id": "ctx_t42",
+      "parent_id": "ctx_layer1",
+      "label": "Corpus 2",
+      "type": "source",
+      "color": "white",
+      "path": "/layer-1/ctx_t42",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t42"
+      }
+    },
+    {
+      "id": "ctx_t43",
+      "parent_id": "ctx_layer1",
+      "label": "Schema 2",
+      "type": "business",
+      "color": "orange",
+      "path": "/layer-1/ctx_t43",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.05,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t43"
+      }
+    },
+    {
+      "id": "ctx_t44",
+      "parent_id": "ctx_layer1",
+      "label": "Pipeline 2",
+      "type": "health",
+      "color": "green",
+      "path": "/layer-1/ctx_t44",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.85,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t44"
+      }
+    },
+    {
+      "id": "ctx_t45",
+      "parent_id": "ctx_layer1",
+      "label": "Roster 2",
+      "type": "source",
+      "color": "white",
+      "path": "/layer-1/ctx_t45",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.15,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t45"
+      }
+    },
+    {
+      "id": "ctx_t46",
+      "parent_id": "ctx_layer1",
+      "label": "Ledger 2",
+      "type": "business",
+      "color": "orange",
+      "path": "/layer-1/ctx_t46",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.2,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t46"
+      }
+    },
+    {
+      "id": "ctx_t47",
+      "parent_id": "ctx_layer1",
+      "label": "Intake 2",
+      "type": "health",
+      "color": "green",
+      "path": "/layer-1/ctx_t47",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.25,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t47"
+      }
+    },
+    {
+      "id": "ctx_t48",
+      "parent_id": "ctx_layer1",
+      "label": "Redline 2",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t48",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.3,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t48"
+      }
+    },
+    {
+      "id": "ctx_t49",
+      "parent_id": "ctx_layer1",
+      "label": "Vitals 2",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t49",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t49"
+      }
+    },
+    {
+      "id": "ctx_t50",
+      "parent_id": "ctx_layer1",
+      "label": "Scan 2",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t50",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.05,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t50"
+      }
+    },
+    {
+      "id": "ctx_t51",
+      "parent_id": "ctx_layer1",
+      "label": "Deploy 2",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t51",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.1,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t51"
+      }
+    },
+    {
+      "id": "ctx_t52",
+      "parent_id": "ctx_layer1",
+      "label": "Runbook 2",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t52",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.15,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t52"
+      }
+    },
+    {
+      "id": "ctx_t53",
+      "parent_id": "ctx_layer1",
+      "label": "Vault 2",
+      "type": "legal",
+      "color": "red",
+      "path": "/layer-1/ctx_t53",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.2,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t53"
+      }
+    },
+    {
+      "id": "ctx_t54",
+      "parent_id": "ctx_layer1",
+      "label": "Index 2",
+      "type": "archive",
+      "color": "gray",
+      "path": "/layer-1/ctx_t54",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.25,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t54"
+      }
+    },
+    {
+      "id": "ctx_t55",
+      "parent_id": "ctx_layer1",
+      "label": "Router 2",
+      "type": "identity",
+      "color": "gold",
+      "path": "/layer-1/ctx_t55",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.85,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t55"
+      }
+    },
+    {
+      "id": "ctx_t56",
+      "parent_id": "ctx_layer1",
+      "label": "Metrics 2",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t56",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t56"
+      }
+    },
+    {
+      "id": "ctx_t57",
+      "parent_id": "ctx_layer1",
+      "label": "Consent 2",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t57",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0.05,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t57"
+      }
+    },
+    {
+      "id": "ctx_t58",
+      "parent_id": "ctx_layer1",
+      "label": "Backup 2",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t58",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "stale",
+      "staleness_score": 0.1,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t58"
+      }
+    },
+    {
+      "id": "ctx_t59",
+      "parent_id": "ctx_layer1",
+      "label": "Digest 2",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t59",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "unknown",
+      "staleness_score": 0.15,
+      "privacy_level": "locked",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t59"
+      }
+    },
+    {
+      "id": "ctx_t60",
+      "parent_id": "ctx_layer1",
+      "label": "Signal 2",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t60",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "user_verified",
+      "staleness_score": 0.2,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t60"
+      }
+    },
+    {
+      "id": "ctx_t61",
+      "parent_id": "ctx_layer1",
+      "label": "Lattice 2",
+      "type": "project",
+      "color": "blue",
+      "path": "/layer-1/ctx_t61",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "source_backed",
+      "staleness_score": 0.25,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t61"
+      }
+    },
+    {
+      "id": "ctx_t62",
+      "parent_id": "ctx_layer1",
+      "label": "Voyage 2",
+      "type": "creative",
+      "color": "purple",
+      "path": "/layer-1/ctx_t62",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "ai_inferred",
+      "staleness_score": 0.3,
+      "privacy_level": "private",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t62"
+      }
+    },
+    {
+      "id": "ctx_t63",
+      "parent_id": "ctx_layer1",
+      "label": "Combat 2",
+      "type": "task",
+      "color": "cyan",
+      "path": "/layer-1/ctx_t63",
+      "summary": "A crystallized context tile.",
+      "children": [],
+      "trust_level": "disputed",
+      "staleness_score": 0,
+      "privacy_level": "sensitive",
+      "marker": {
+        "kind": "datamatrix",
+        "payload": "ctx://ctx_t63"
+      }
+    }
+  ]
+}

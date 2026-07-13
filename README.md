@@ -10,10 +10,12 @@ Two layers, one system:
    tiles, trust borders, and a real scannable **root QR**. *Route before you retrieve.*
 
 <p align="center">
-  <img src="assets/example_map.svg" alt="Aurum Recall lattice — color-coded context routers" width="560">
-  &nbsp;&nbsp;
-  <img src="assets/example_qr.png" alt="Scannable root QR" width="170">
+  <img src="assets/lattice.png" alt="Aurum Recall lattice — a sealed 8×8 layer of 64 color-coded context tiles" width="720">
 </p>
+<p align="center">
+  <img src="assets/example_qr.png" alt="Scannable root QR pointing to ctx://ctx_root" width="150">
+</p>
+<p align="center"><sub>An 8×8 memory layer — 64 crystallized context tiles (<b>color</b> = type · <b>border</b> = trust · <b>🔒</b> = private · <b>faded</b> = stale) · and the real scannable root QR</sub></p>
 
 > The store is where memory lives. The lattice is how an agent flies through it — narrowing to the
 > right branch, respecting privacy and freshness, and pulling only what it needs, *before* spending
