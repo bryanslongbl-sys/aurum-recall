@@ -1,0 +1,1563 @@
+{
+  "layer_id": "layer_001",
+  "tile_count": 64,
+  "grid": [
+    8,
+    8
+  ],
+  "summary": "Sealed layer of 64 crystallized context tiles.",
+  "dominant_topics": [
+    "ContextQR",
+    "Aurum Recall",
+    "technical",
+    "health",
+    "legal",
+    "creative",
+    "business",
+    "active_task"
+  ],
+  "child_tiles": [
+    "ctx_000001",
+    "ctx_000002",
+    "ctx_000003",
+    "ctx_000004",
+    "ctx_000005",
+    "ctx_000006",
+    "ctx_000007",
+    "ctx_000008",
+    "ctx_000009",
+    "ctx_000010",
+    "ctx_000011",
+    "ctx_000012",
+    "ctx_000013",
+    "ctx_000014",
+    "ctx_000015",
+    "ctx_000016",
+    "ctx_000017",
+    "ctx_000018",
+    "ctx_000019",
+    "ctx_000020",
+    "ctx_000021",
+    "ctx_000022",
+    "ctx_000023",
+    "ctx_000024",
+    "ctx_000025",
+    "ctx_000026",
+    "ctx_000027",
+    "ctx_000028",
+    "ctx_000029",
+    "ctx_000030",
+    "ctx_000031",
+    "ctx_000032",
+    "ctx_000033",
+    "ctx_000034",
+    "ctx_000035",
+    "ctx_000036",
+    "ctx_000037",
+    "ctx_000038",
+    "ctx_000039",
+    "ctx_000040",
+    "ctx_000041",
+    "ctx_000042",
+    "ctx_000043",
+    "ctx_000044",
+    "ctx_000045",
+    "ctx_000046",
+    "ctx_000047",
+    "ctx_000048",
+    "ctx_000049",
+    "ctx_000050",
+    "ctx_000051",
+    "ctx_000052",
+    "ctx_000053",
+    "ctx_000054",
+    "ctx_000055",
+    "ctx_000056",
+    "ctx_000057",
+    "ctx_000058",
+    "ctx_000059",
+    "ctx_000060",
+    "ctx_000061",
+    "ctx_000062",
+    "ctx_000063",
+    "ctx_000064"
+  ],
+  "next_layer": "layer_002",
+  "sealed": true,
+  "merkle_root": "a283a9389cb99c4166930d236309b98344bda5d15c081239b8748d7275003d32",
+  "hash": "a283a9389cb99c4166930d236309b98344bda5d15c081239b8748d7275003d32",
+  "tiles": [
+    {
+      "tile_id": "ctx_000001",
+      "layer": "layer_001",
+      "position": [
+        0,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #1 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "661cc67426c0c0f39ef1f4f6411f1741c9293ffc978ca5475aef2c7810fcc3e7"
+    },
+    {
+      "tile_id": "ctx_000002",
+      "layer": "layer_001",
+      "position": [
+        0,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #2 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "f88c9fad1e34bd749dccc4bb08533da02008e2f54281432473216d2d09628336"
+    },
+    {
+      "tile_id": "ctx_000003",
+      "layer": "layer_001",
+      "position": [
+        0,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #3 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "959ff85e42fd379abb5bb1376e485307c52cd2dffd21f8768948ce536a04bfae"
+    },
+    {
+      "tile_id": "ctx_000004",
+      "layer": "layer_001",
+      "position": [
+        0,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #4 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2aea4b37e1b278b91598c551208d79e90ed7298039949aa52b4c49c75e20da91"
+    },
+    {
+      "tile_id": "ctx_000005",
+      "layer": "layer_001",
+      "position": [
+        0,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #5 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "e630303856773bde586e270c81ef8ba10ed9e68f342911ebcc535ab00ef5d80d"
+    },
+    {
+      "tile_id": "ctx_000006",
+      "layer": "layer_001",
+      "position": [
+        0,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #6 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "d5425e7d1723200758498c0047d6885d4c1de238e1afdc5fc2ba5f44e3ee5d03"
+    },
+    {
+      "tile_id": "ctx_000007",
+      "layer": "layer_001",
+      "position": [
+        0,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #7 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "246d60dd2f0727dd91884f100d398d9f7a888fd3b8a398418091cbef84c138f7"
+    },
+    {
+      "tile_id": "ctx_000008",
+      "layer": "layer_001",
+      "position": [
+        0,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #8 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "1ceacc62ef181ca14e2322da813c0990f333fa3a822a97e22b5af8838fe58aaa"
+    },
+    {
+      "tile_id": "ctx_000009",
+      "layer": "layer_001",
+      "position": [
+        1,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #9 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "8d9e6a319f8d5ebc9eb1588d7eb198874ecc68b7c5908d44f131c48b33d32210"
+    },
+    {
+      "tile_id": "ctx_000010",
+      "layer": "layer_001",
+      "position": [
+        1,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #10 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "e27e692125d7f96f733d78b8753fa37d2de826aa08daee4fa2adddd75407c4f9"
+    },
+    {
+      "tile_id": "ctx_000011",
+      "layer": "layer_001",
+      "position": [
+        1,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #11 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "3abf07f8e9c0b4e3341aa8838cf21d6b7b11fafe509312be9aa931de446b7030"
+    },
+    {
+      "tile_id": "ctx_000012",
+      "layer": "layer_001",
+      "position": [
+        1,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #12 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "5cb1e329fec1dd5ee6eb9ab3415926e49329318059a3cfce4c930e44539ec98f"
+    },
+    {
+      "tile_id": "ctx_000013",
+      "layer": "layer_001",
+      "position": [
+        1,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #13 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "faedae657ee8145d6b683daaa9e0c0a5aae21995dafe547efcdfd68ee8a79590"
+    },
+    {
+      "tile_id": "ctx_000014",
+      "layer": "layer_001",
+      "position": [
+        1,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #14 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2db79074f4fb63b4bca5cb2cfec37bd4cd0fbbd751f679bf9492d8f372b733f0"
+    },
+    {
+      "tile_id": "ctx_000015",
+      "layer": "layer_001",
+      "position": [
+        1,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #15 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "30dfa0f7b0b80403a704f398a4257468b7f6327d293546506809ea53874708d1"
+    },
+    {
+      "tile_id": "ctx_000016",
+      "layer": "layer_001",
+      "position": [
+        1,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #16 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "c152cb4f6c021093c91f84873bf7dcdd3af35627fb1f01bf4271c49595b50696"
+    },
+    {
+      "tile_id": "ctx_000017",
+      "layer": "layer_001",
+      "position": [
+        2,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #17 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "0aa2bc96b146602741e05e374c5d4927d6e0bf9f2aaaa44396a782ecf9b441d9"
+    },
+    {
+      "tile_id": "ctx_000018",
+      "layer": "layer_001",
+      "position": [
+        2,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #18 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "4ba266e1d497d5a6c8df2a93a127213b88e2cd396aa01ceb152f367d9919c2da"
+    },
+    {
+      "tile_id": "ctx_000019",
+      "layer": "layer_001",
+      "position": [
+        2,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #19 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "6b536f1290f8d89ee33a47f9209f9665a2ed6a17eb387e9d9e2ce6afcd2d5106"
+    },
+    {
+      "tile_id": "ctx_000020",
+      "layer": "layer_001",
+      "position": [
+        2,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #20 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "daeb1fab41bfdd7281f48c397ad23dc8d30d4c764e4f2433bf5379a10ce067c5"
+    },
+    {
+      "tile_id": "ctx_000021",
+      "layer": "layer_001",
+      "position": [
+        2,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #21 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "b39070676e98730aca622baed0fafcdee3d651af32f9d232ce46a68324e76736"
+    },
+    {
+      "tile_id": "ctx_000022",
+      "layer": "layer_001",
+      "position": [
+        2,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #22 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "93821b25aec858f45fa5c7b0b4d28c32f5035e5d1ca875ebb38376227b10889c"
+    },
+    {
+      "tile_id": "ctx_000023",
+      "layer": "layer_001",
+      "position": [
+        2,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #23 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "8adcb09abcee358f6d7fea88a4bb0e237b4d5d951aaada076f2c27057f4483d2"
+    },
+    {
+      "tile_id": "ctx_000024",
+      "layer": "layer_001",
+      "position": [
+        2,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #24 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "63f9e39145eee2ad584f057eeb1df33cb7ec6c9e9019d435b25a04b02125e4b6"
+    },
+    {
+      "tile_id": "ctx_000025",
+      "layer": "layer_001",
+      "position": [
+        3,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #25 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "29a729b9ef6134de7e6d488535f917d20342683469a3f283550a9cd0c61619a1"
+    },
+    {
+      "tile_id": "ctx_000026",
+      "layer": "layer_001",
+      "position": [
+        3,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #26 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "944adf556e1cda967d63062d2a500a9d6249553060c244115fdc554ae12cb34d"
+    },
+    {
+      "tile_id": "ctx_000027",
+      "layer": "layer_001",
+      "position": [
+        3,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #27 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "c206f5ce62b9e2862205daeb850e9d98f081a10678d8d2d2ed6189bb89ade9f5"
+    },
+    {
+      "tile_id": "ctx_000028",
+      "layer": "layer_001",
+      "position": [
+        3,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #28 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2b2ed791aa9bdfb69aca06a644028f17ac448eec40a2867717b20e881575f1e3"
+    },
+    {
+      "tile_id": "ctx_000029",
+      "layer": "layer_001",
+      "position": [
+        3,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #29 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "bb4d2298f64dcfe2276a1c4a0037db4129addc2937d188f020a983680efe0cc6"
+    },
+    {
+      "tile_id": "ctx_000030",
+      "layer": "layer_001",
+      "position": [
+        3,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #30 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "c62d000e9d4e3bd5a5e4c1355a197858f88eae63f48583f9dae547f3ad60f393"
+    },
+    {
+      "tile_id": "ctx_000031",
+      "layer": "layer_001",
+      "position": [
+        3,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #31 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2ab11cb568bca540ac44e1c48a55717dc4cac53b1e92184292789a1996522de6"
+    },
+    {
+      "tile_id": "ctx_000032",
+      "layer": "layer_001",
+      "position": [
+        3,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #32 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "317fd450f53e6788f71dc33d3eb12737e120ea8a528d472354150b3734cdb6ab"
+    },
+    {
+      "tile_id": "ctx_000033",
+      "layer": "layer_001",
+      "position": [
+        4,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #33 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "fcca0052cb0e62c9c8e59b906d584e677c44ac3b6118bb3089a6389f820ec654"
+    },
+    {
+      "tile_id": "ctx_000034",
+      "layer": "layer_001",
+      "position": [
+        4,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #34 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "1a77dcb054e96ab4e12a8fb48e394d2bebad972c721e6badb95b3c78418df440"
+    },
+    {
+      "tile_id": "ctx_000035",
+      "layer": "layer_001",
+      "position": [
+        4,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #35 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2dd37fbc2037c5397ceba3c18f3ca2b2eb14fc932410bd907adb3a1f036f7423"
+    },
+    {
+      "tile_id": "ctx_000036",
+      "layer": "layer_001",
+      "position": [
+        4,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #36 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "baf0f5c69be494f0bec3476ed66fd2cc9883156232d04bb6b5b32a7db143269e"
+    },
+    {
+      "tile_id": "ctx_000037",
+      "layer": "layer_001",
+      "position": [
+        4,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #37 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "d4cdc89573f62bf7a2b3d0d7af6e095ff9c9bd41dd23d820b88d3f369f5f68dd"
+    },
+    {
+      "tile_id": "ctx_000038",
+      "layer": "layer_001",
+      "position": [
+        4,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #38 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "03ccd012151c87e060956d6b58f5d36a02009d9708ca1ff0ff89b6044bb48354"
+    },
+    {
+      "tile_id": "ctx_000039",
+      "layer": "layer_001",
+      "position": [
+        4,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #39 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "231f04febfd0048568483c421716be40eff1164b76b855d0a59f187ee42a52cb"
+    },
+    {
+      "tile_id": "ctx_000040",
+      "layer": "layer_001",
+      "position": [
+        4,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #40 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "1091a77eb7f58477430fb871372ceff571ef7a32fd48fe2a69053d5e13336dba"
+    },
+    {
+      "tile_id": "ctx_000041",
+      "layer": "layer_001",
+      "position": [
+        5,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #41 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "605bbf6b15df2f796ed3b1423a2ee2a3210918c8afdb6380f391e69b507c3637"
+    },
+    {
+      "tile_id": "ctx_000042",
+      "layer": "layer_001",
+      "position": [
+        5,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #42 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "22c9b0104a782e14e9edeae1a3c87aa05065fb4a4bf47b297bfa544665609412"
+    },
+    {
+      "tile_id": "ctx_000043",
+      "layer": "layer_001",
+      "position": [
+        5,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #43 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "ab66a31b4c8490be8e6541358dd56dd4792fcd510f49153d11684cd0a27f0daf"
+    },
+    {
+      "tile_id": "ctx_000044",
+      "layer": "layer_001",
+      "position": [
+        5,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #44 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "3a72a2321ac69ea9b117cf389e0bccd1dc7cd92680c8fa63db541b0d716cb8d9"
+    },
+    {
+      "tile_id": "ctx_000045",
+      "layer": "layer_001",
+      "position": [
+        5,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #45 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "bea840bf4f941e02d6dcd4429b91c1e891ec514fe97fc51595b4693c2daf94de"
+    },
+    {
+      "tile_id": "ctx_000046",
+      "layer": "layer_001",
+      "position": [
+        5,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #46 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "3b63cbdbbe167297e460dd6f348979413e610a3eb71fdd942dc6cfc5a9c5b00e"
+    },
+    {
+      "tile_id": "ctx_000047",
+      "layer": "layer_001",
+      "position": [
+        5,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #47 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "cd2c078034bfc049df18be9d541598d13719154f02b91e469b9444652f9fd911"
+    },
+    {
+      "tile_id": "ctx_000048",
+      "layer": "layer_001",
+      "position": [
+        5,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #48 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "5c53d84e6bb12ddc971fbf0ff0cc545425ce6467c4a72d6dc99113fea0c6b04d"
+    },
+    {
+      "tile_id": "ctx_000049",
+      "layer": "layer_001",
+      "position": [
+        6,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #49 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "f680cef2b2f240c141942243c2c799baedb1a2605777561b499bdfda2748217c"
+    },
+    {
+      "tile_id": "ctx_000050",
+      "layer": "layer_001",
+      "position": [
+        6,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #50 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "ebdf7bb0b0f09b15eb111c5eec087bc6f96047371279abdbc1acba784741201a"
+    },
+    {
+      "tile_id": "ctx_000051",
+      "layer": "layer_001",
+      "position": [
+        6,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #51 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "f2e79d78cc5ffd4691086663eea0250b46f65077d32940ece91e966947d480c2"
+    },
+    {
+      "tile_id": "ctx_000052",
+      "layer": "layer_001",
+      "position": [
+        6,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #52 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "39ab44a0a95150cab8dd31a7f678d425aeb3fac3993811c258acc82c1767c0b3"
+    },
+    {
+      "tile_id": "ctx_000053",
+      "layer": "layer_001",
+      "position": [
+        6,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #53 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "edfb84250d89ddf8414cf6cea23c293d5a947c09d932c1f6aed6812289af2467"
+    },
+    {
+      "tile_id": "ctx_000054",
+      "layer": "layer_001",
+      "position": [
+        6,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #54 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "c015970403cab0dbcea7e67da2e7fa581ae600748c7fc96c869439401dde178e"
+    },
+    {
+      "tile_id": "ctx_000055",
+      "layer": "layer_001",
+      "position": [
+        6,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #55 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "ba55b33fc3f034fe1eabda8b61265a09176525e23f44e06693fe2fef4990c32b"
+    },
+    {
+      "tile_id": "ctx_000056",
+      "layer": "layer_001",
+      "position": [
+        6,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "health",
+      "summary": "Compressed context window #56 — health.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "health"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "9b8cf871c1047336aff0f2c50b7b3b16a675d9b640019e67f026b75c1177068b"
+    },
+    {
+      "tile_id": "ctx_000057",
+      "layer": "layer_001",
+      "position": [
+        7,
+        0
+      ],
+      "source": "conversation_window",
+      "type": "legal",
+      "summary": "Compressed context window #57 — legal.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "legal"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "42bb9dba778cc451026a28634dba12e20bf77ffb22ebcd6e85ee6ec5d563d9e3"
+    },
+    {
+      "tile_id": "ctx_000058",
+      "layer": "layer_001",
+      "position": [
+        7,
+        1
+      ],
+      "source": "conversation_window",
+      "type": "creative",
+      "summary": "Compressed context window #58 — creative.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "creative"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "0d62bfe3aa956dadec0e75fee8fbfbbbbf822cfbe3c4e97211037ec4b9d9314c"
+    },
+    {
+      "tile_id": "ctx_000059",
+      "layer": "layer_001",
+      "position": [
+        7,
+        2
+      ],
+      "source": "conversation_window",
+      "type": "business",
+      "summary": "Compressed context window #59 — business.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "business"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2773b821cdd15dc0ab44dec9c05638d2f18faa8dcb902b13635b30da339c13bf"
+    },
+    {
+      "tile_id": "ctx_000060",
+      "layer": "layer_001",
+      "position": [
+        7,
+        3
+      ],
+      "source": "conversation_window",
+      "type": "active_task",
+      "summary": "Compressed context window #60 — active_task.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "active_task"
+      ],
+      "trust_level": "user_verified",
+      "freshness": "active",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "2d189989509ce6f9718246179f05195595ef2114106405ef5990d36569d1e446"
+    },
+    {
+      "tile_id": "ctx_000061",
+      "layer": "layer_001",
+      "position": [
+        7,
+        4
+      ],
+      "source": "conversation_window",
+      "type": "archive",
+      "summary": "Compressed context window #61 — archive.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "archive"
+      ],
+      "trust_level": "source_backed",
+      "freshness": "active",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "cb5094618868691fc23ecedd7833f9f4bac82649cbb5f50d54e438e47fd03b0c"
+    },
+    {
+      "tile_id": "ctx_000062",
+      "layer": "layer_001",
+      "position": [
+        7,
+        5
+      ],
+      "source": "conversation_window",
+      "type": "source",
+      "summary": "Compressed context window #62 — source.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "source"
+      ],
+      "trust_level": "ai_inferred",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "8f9d76cd2d28d75a1d5be80cac2002ed87e980992e8157bd26ce961701531ba9"
+    },
+    {
+      "tile_id": "ctx_000063",
+      "layer": "layer_001",
+      "position": [
+        7,
+        6
+      ],
+      "source": "conversation_window",
+      "type": "identity",
+      "summary": "Compressed context window #63 — identity.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "identity"
+      ],
+      "trust_level": "disputed",
+      "freshness": "current",
+      "privacy_level": "family",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "162c1b3a3062614e8c04d597075c918e6cff1f0f95ff0c039465fb5ae82033ca"
+    },
+    {
+      "tile_id": "ctx_000064",
+      "layer": "layer_001",
+      "position": [
+        7,
+        7
+      ],
+      "source": "conversation_window",
+      "type": "technical",
+      "summary": "Compressed context window #64 — technical.",
+      "key_entities": [
+        "ContextQR",
+        "Aurum Recall",
+        "technical"
+      ],
+      "trust_level": "stale",
+      "freshness": "stale",
+      "privacy_level": "private",
+      "token_count_original": 120000,
+      "token_count_compressed": 1800,
+      "created_at": "2026-07-14T00:00:00Z",
+      "hash": "35d2363c9baba123a97a8515f35c791c49b3924dabb9298c45e9a7dfba8dfae7"
+    }
+  ]
+}
